@@ -1,0 +1,59 @@
+
+body, h2, label, input, select, button, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(close-up-of-many-soccer-players-kicking-a-football-on-a-field-competition-scene-created-with-generative-ai-technology-free-photo.jpg);
+}
+
+
+form {
+    background-color:white;
+    width: 400px; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px; 
+    color: green;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px; 
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    font-size: 16px; 
+}
+button{
+    color:green;
+}
+
+
+
+
